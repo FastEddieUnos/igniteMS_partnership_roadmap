@@ -1,0 +1,15 @@
+---
+    ---
+    @import "{{ site.theme }}";
+    
+    $ignite-blue: #003366; 
+    $ignite-gold: #FFD700;
+    
+    body {
+      background-color: $ignite-blue;
+      color: $ignite-gold;
+    }
+    h1, h2, h3 {
+      color: $ignite-gold;
+    }
+    
